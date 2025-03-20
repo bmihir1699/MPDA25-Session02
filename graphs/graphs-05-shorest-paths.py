@@ -25,7 +25,7 @@ def PlotGraph(G,filepath):
     #draw the graph
     plt.tight_layout()
 
-    # plt.show()
+    plt.show()
     plt.savefig(filepath, format="PNG")
 
 def GetMeshFaceCentroid(mesh, mfi):
@@ -99,5 +99,5 @@ c = faceInd
 
 
 #plot
-# path= r"C:\Users\david\Desktop\Session02\session02\images\MDPA_plot5.png"
-# PlotGraph(G, path)
+path= r"C:\Users\david\Desktop\Session02\session02\images\MDPA_plot5.png"
+PlotGraph(G, path)
